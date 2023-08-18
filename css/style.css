@@ -452,6 +452,7 @@ Home section
 ---------*/
 .home-section{
     position: relative;
+    
 }
 .home-section .full-screen{
     padding: 50px 0;
@@ -463,6 +464,7 @@ Home section
     flex: 0 0 50%;
     max-width: 50%;
     padding: 0 15px;
+    height: 100%;
 
 }
 .home-section .home-text p{
@@ -489,12 +491,12 @@ Home section
 }
 .home-section .home-img .img-box{
     /*background-color: red;*/
-    width: 450px;
+    width: 400px;
     height: 450px;
     display: block;
     margin: auto;
     border-radius: 50%;
-    animation: spin 20s linear ;
+    /* animation: spin 20s linear ; */
 }
 .home-section .home-img .img-box img{
     width: 100%;
@@ -1164,12 +1166,18 @@ contact section start
     max-width: 33.33%;
     display: flex;
 }
+.contact-section .contact-item .contact-item-inner:hover{
+    background-color: #496960;
+    transition: .5s ease-in-out;
+    
+}
 .contact-section .contact-item .contact-item-inner{
     padding: 30px 15px;
     text-align: center;
     border-radius: 5px;
     background-color: transparent;
     width: 100%;
+    transition: .5s ease-in-out;
     
 }
 .contact-section .contact-item .contact-item-inner span{
